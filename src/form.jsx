@@ -62,6 +62,11 @@ export function SubscriberForm() {
             Bad Experience
           </Form.Checkbox>
         </div>
+        <div>
+          <Form.Checkbox>
+            Other
+          </Form.Checkbox>
+        </div>
       </Form.Control>
     </Form.Field>
 
@@ -86,6 +91,17 @@ export function SubscriberForm() {
         <Form.Textarea
           placeholder="Enter your message here"
         />
+      </Form.Control>
+    </Form.Field>
+
+    <Form.Field>
+      <Form.Label>Deals and Promotions</Form.Label>
+      <Form.Control>
+        <div>
+          <Form.Checkbox>
+            Check this box to recieve the latest updates about deals and promotions at Laynol's Chicken Shop!
+          </Form.Checkbox>
+        </div>
       </Form.Control>
     </Form.Field>
 
