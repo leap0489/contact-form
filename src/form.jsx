@@ -38,6 +38,33 @@ export function SubscriberForm() {
       </Form.Control>
     </Form.Field>
 
+
+    <Form.Field>
+      <Form.Label>Reason For Contacting</Form.Label>
+      <Form.Control>
+        <div>
+          <Form.Checkbox>
+            Great Experience
+          </Form.Checkbox>
+        </div>
+        <div>
+          <Form.Checkbox>
+            Questions about food ingredients
+          </Form.Checkbox>
+        </div>
+        <div>
+          <Form.Checkbox>
+            Catering
+          </Form.Checkbox>
+        </div>
+        <div>
+          <Form.Checkbox>
+            Bad Experience
+          </Form.Checkbox>
+        </div>
+      </Form.Control>
+    </Form.Field>
+
     <Form.Field>
       <Form.Label>Message</Form.Label>
       <Form.Control>
